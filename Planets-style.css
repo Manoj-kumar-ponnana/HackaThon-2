@@ -1,0 +1,130 @@
+.planet-sec-left{
+    height: 100vh;
+    width: 100vw;
+    border: 1px dashed black;
+}
+.planet-upper{
+    width: inherit;
+    height: 60vh;
+    border: 1px dashed orangered;
+    display: flex;
+}
+.planet-lower{
+    width: inherit;
+    height: 40vh;
+    border: 1px dashed orangered;
+    display: flex;
+}
+.planet-part{
+    width: 30vw;
+    height: inherit;
+    border: 1px dashed cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planet-img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+    text-align: center;
+}
+.planet-info{
+    width: 70vw;
+    height: inherit;
+    border: 1px solid green;
+}
+.planet-lower-info{
+    height: inherit;
+    width: 50vw;
+    border: 1px dashed black;
+}
+.planet-slider{
+    height: inherit;
+    width: 50vw;
+    border: 1px dashed black;
+}
+.planet-sec-right{
+    height: 100vh;
+    width: 100vw;
+    border: 1px dashed black;  
+}
+.image-slider {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+  }
+  
+.image-slider img {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+.image-slider img:nth-of-type(1) {
+    animation: slide1 8s infinite;
+  }
+  
+  .image-slider img:nth-of-type(2) {
+    animation: slide2 8s infinite;
+  }
+  
+  .image-slider img:nth-of-type(3) {
+    animation: slide3 8s infinite;
+  }
+  
+  @keyframes slide1 {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide2 {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes slide3 {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
