@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     border: none;
+    cursor: url(cursor.png), auto;
 }
 body{
     width: 100%;
